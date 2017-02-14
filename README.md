@@ -1,1 +1,1 @@
-[线程安全的map](./thread/SafeMap)
+[线程安全的map](./blob/master/thread/SafeMap.go)
