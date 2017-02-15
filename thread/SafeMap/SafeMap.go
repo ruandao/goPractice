@@ -1,4 +1,4 @@
-package main
+package SafeMap
 
 // 线程安全的map
 type SafeMap interface {
