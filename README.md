@@ -6,3 +6,4 @@
 [（看书）压缩文件](./io/pack/pack.go)
 [（看书）解压文件](./io/unpack/unpack.go)
 [（习题）支持bz2的解压程序](./io/my_unpack/unpack.go)
+[（习题）将utf16编码的文件转码为utf8并写入文件](./io/utf16-to-utf8/utf16-to-utf8.go)
