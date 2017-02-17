@@ -3,3 +3,5 @@
 [（习题）多线程的IMG tag生成](./thread/imagetag/imagetag.go)
 [（习题＊抄）多线程html tag：img 的width height 补全](./thread/imgFill/imgFill.go)
 [（看书）支持多种格式的发票读写程序](./io/invoice/)
+[（看书）压缩文件](./io/pack/pack.go)
+[（看书）解压文件](./io/unpack/unpack.go)
