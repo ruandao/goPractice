@@ -26,14 +26,14 @@ func LinksFromReader(r io.Reader) ([]string, error) {
 	if err != nil {
 		return nil, err
 	}
-	urls := rep.FindAllString(sContent, -1)
+	urls := rep.FindAllStringSubmatch(sContent, -1)
 	urls2 := make(map[string]bool)
 	for _, url := range urls {
-		urls2[url] = true
+		urls2[url[1]] = true
 	}
-	urls = make([]string, 0)
+	allurls := make([]string, 0)
 	for k,_ := range urls2 {
-		urls = append(urls, k)
+		allurls = append(allurls, k)
 	}
-	return urls, nil
+	return allurls, nil
 }
