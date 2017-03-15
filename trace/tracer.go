@@ -1,6 +1,9 @@
 package trace
 
-import "io"
+import (
+	"io"
+	"fmt"
+)
 
 type Tracer interface {
 	Trace(...interface{})
@@ -15,5 +18,18 @@ type tracer struct {
 }
 
 func (t *tracer) Trace(a ...interface{})  {
+	fmt.Fprint(t.out, a...)
+	fmt.Fprintln(t.out)
+}
 
+type nilTracer struct {
+
+}
+
+func (t *nilTracer) Trace(a ...interface{})  {
+
+}
+
+func Off() Tracer {
+	return &nilTracer{}
 }
