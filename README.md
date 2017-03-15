@@ -12,3 +12,4 @@
 ### [（习题＊抄）检查页面链接是否存在］(./pkg/my_linkcheck/run.go)
 ### [（看书）websocket聊天室](./chat/main.go)
 ### [（看书) 生成关联词](./sprinkle/main.go)
+### [（看书）过滤生成合适的域名](./domainify/main.go)
