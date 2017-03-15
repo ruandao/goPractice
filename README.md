@@ -13,3 +13,4 @@
 ### [（看书）websocket聊天室](./chat/main.go)
 ### [（看书) 生成关联词](./sprinkle/main.go)
 ### [（看书）过滤生成合适的域名](./domainify/main.go)
+### [（看书）随机删除或复制一个元音字符](./coolify/main.go)
