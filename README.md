@@ -16,3 +16,4 @@
 ### [（看书）随机删除或复制一个元音字符](./coolify/main.go)
 ### [（看书）查询同义词](./synonyms/main.go)
 ### [（看书）查询域名是否可用，显然这个服务器不可信了](./available/main.go)
+### [（看书）把前面几个串起来，用于查询域名, 其实用bash脚本更方便明了](./domainfinder/main.go)
