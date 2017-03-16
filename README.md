@@ -14,3 +14,5 @@
 ### [（看书) 生成关联词](./sprinkle/main.go)
 ### [（看书）过滤生成合适的域名](./domainify/main.go)
 ### [（看书）随机删除或复制一个元音字符](./coolify/main.go)
+### [（看书）查询同义词](./synonyms/main.go)
+### [（看书）查询域名是否可用，显然这个服务器不可信了](./available/main.go)
