@@ -17,4 +17,5 @@
 ### [（看书）查询同义词](./synonyms/main.go)
 ### [（看书）查询域名是否可用，显然这个服务器不可信了](./available/main.go)
 ### [（看书）把前面几个串起来，用于查询域名, 其实用bash脚本更方便明了](./domainfinder/main.go)
-### [（看书）分布式投票程序](./socialpoll/twittervotes/main.go)
+### [（看书）分布式投票程序,主要是利用NSQ](./socialpoll/twittervotes/main.go)
+### [（看书）RESTful风格的http API程序](./socialpoll/api/main.go)
