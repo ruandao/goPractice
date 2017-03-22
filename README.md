@@ -1,3 +1,4 @@
+```
 
 ### [（看书）线程安全的map](./thread/SafeMap/SafeMap.go)
 ### [（习题）线程安全的slice](./thread/SafeSlice/safeSlice.go)
@@ -20,3 +21,13 @@
 ### [（看书）分布式投票程序,主要是利用NSQ](./socialpoll/twittervotes/main.go)
 ### [（看书）RESTful风格的http API程序](./socialpoll/api/main.go)
 ### [（看书）一个备份程序的前台接口](./backup/cmds/backup/main.go)
+
+发现一个很危险的事：
+slice 在截取的时候，和append的时候，是基于原数组的，譬如下面这些
+    ar := []int{1,2,3,4,5,6,7,8}
+    ar = ar[2:3]
+    ar = append(ar, 1)
+    fmt.Printf("len: %d cap: %d val: %v\n", len(ar), cap(ar), ar)  // len: 2 cap: 6 val: [3 1]
+    ar = ar[:6]
+    fmt.Printf("len: %d cap: %d val: %v\n", len(ar), cap(ar), ar)  // len: 6 cap: 6 val: [3 1 5 6 7 8]
+```
