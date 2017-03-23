@@ -20,7 +20,8 @@
 ### [（看书）把前面几个串起来，用于查询域名, 其实用bash脚本更方便明了](./domainfinder/main.go)
 ### [（看书）分布式投票程序,主要是利用NSQ](./socialpoll/twittervotes/main.go)
 ### [（看书）RESTful风格的http API程序](./socialpoll/api/main.go)
-### [（看书）一个备份程序的前台接口](./backup/cmds/backup/main.go)
+### [（看书）一个备份程序的数据库用来存储要备份的路径](./backup/cmds/backup/main.go)
+### [（看书）自动备份程序，从上一个数据库中获取要备份的路径，进行备份](./backup/cmds/backupd/main.go)
 
 发现一个很危险的事：
 slice 在截取的时候，和append的时候，是基于原数组的，譬如下面这些
