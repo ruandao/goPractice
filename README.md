@@ -23,7 +23,7 @@
 ### [（看书）一个备份程序的数据库用来存储要备份的路径](./backup/cmds/backup/main.go)
 ### [（看书）自动备份程序，从上一个数据库中获取要备份的路径，进行备份](./backup/cmds/backupd/main.go)
 ### [（看书）微服务](./vault/cmd/vaultd/main.go)
-
+### [ (看博客) 微服务 https://jacobmartins.com/2016/03/14/web-app-using-microservices-in-go-part-1-design/](./micro_service/main.go)
 
 发现一个很危险的事：
 slice 在截取的时候，和append的时候，是基于原数组的，譬如下面这些
