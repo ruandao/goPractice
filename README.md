@@ -25,6 +25,7 @@
 ### [（看书）微服务](./vault/cmd/vaultd/main.go)
 ### [ (看博客) 微服务 https://jacobmartins.com/2016/03/14/web-app-using-microservices-in-go-part-1-design/](./micro_service/main.go)
 ### [（看博客) 事件多播／订阅服务https://jacobmartins.com/2016/04/04/practical-golang-event-multicastsubscription-service/](./EventMulticast\(subscription\)service/main.go)
+### [ (自己写）支持分级的日志模块](http://github.com/ruandao/log)
 
 发现一个很危险的事：
 slice 在截取的时候，和append的时候，是基于原数组的，譬如下面这些
