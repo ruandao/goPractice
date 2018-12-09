@@ -27,6 +27,8 @@
 ### [（看博客) 事件多播／订阅服务https://jacobmartins.com/2016/04/04/practical-golang-event-multicastsubscription-service/](./EventMulticast\(subscription\)service/main.go)
 ### [ (自己写）支持分级的日志模块](http://github.com/ruandao/log)
 
+### [ (想法) time.Sleep 和 Ticker 在block profile上有什么区别](./profile/block)
+
 发现一个很危险的事：
 slice 在截取的时候，和append的时候，是基于原数组的，譬如下面这些
     ar := []int{1,2,3,4,5,6,7,8}
